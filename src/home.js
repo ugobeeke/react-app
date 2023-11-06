@@ -83,11 +83,11 @@ class MovieFinder extends React.Component {
               <input
                 type="text"
                 className="form-control mr-sm-2"
-                placeholder="frozen"
+                placeholder="Frozen"
                 value={searchTerm}
                 onChange={this.handleChange}
               />
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-primary mx-2">Submit</button>
             </form>
             {(() => {
               if (error) {
